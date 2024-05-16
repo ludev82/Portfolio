@@ -1,0 +1,112 @@
+/* Font imports */
+@font-face {
+    font-family: Whoopass;
+    src: url("../fonts/whoopass.ttf");
+}
+
+@font-face {
+    font-family: TwCenMT;
+    src: url("../fonts/twcenmt.ttf");
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+
+/* Ludev logo left top*/
+.logo {
+    width: 100px;
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+/* Navbar right top */
+.topnav {
+    overflow: hidden;
+
+    position:absolute;
+    top:0;
+    right:0;
+    padding-top: 20px;
+    padding-right: 30px;
+
+    font-weight: bold;
+    font-family: TwCenMT, sans-serif;
+
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    color: #08ffd6;
+}
+
+.topnav a.active {
+    color: #08ffd6;
+}
+
+/* Socials left bottom */
+.socials {
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialimg {
+    padding: 20px;
+
+    transition: transform .2s;
+}
+
+.socialimg:hover {
+    transform: scale(1.2);
+}
+
+/* ------------------------------------ */
+
+/* Box */
+
+.about-box {
+    font-family: "Tw Cen MT", sans-serif;
+    font-size: 25px;
+    color: white;
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+}
+
+/* Text blue */
+.shine {
+    color: #08ffd6;
+}
+
+/* Technologies */
+.technologies {
+    columns: 2;
+}
+
+li::marker {
+    color: #08ffd6;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="projects.css">
+    <meta charset="UTF-8">
+    <title>Ludev - Projects</title>
+</head>
+<body>
+    <a href="index.html"><img class="logo" src="images/logo.png" alt="Ludev Logo"></a>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="experience.html">Experience</a>
+        <a class="active" href="projects.html">Projects</a>
+    </div>
+
+    <div class="socials">
+        <a href="https://github.com/ludev82" target="_blank"><img class="socialimg" src="images/github.png" width="50px"></a>
+        <a href="https://twitter.com/ludev82" target="_blank"><img class="socialimg" src="images/x.png" width="50px"></a>
+        <a href="https://www.instagram.com/ludev82/" target="_blank"><img class="socialimg" src="images/insta.png" width="50px"></a>
+    </div>
+
+    <div class="projects-header">
+        <h1>/ projects</h1>
+    </div>
+
+    <!-- Project Cards -->
+    <div class="container">
+        <div class="card">
+            <div class="card-img1"></div>
+            <div class="content">
+                <h3>Catch or be Caught</h3>
+                <p>A Roblox open-world game mode where you battle against the sea life to obtain every fish.</p>
+                <a href="projects/cobc.html">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img2"></div>
+            <div class="content">
+                <h3>Ugentopoly</h3>
+                <p>A digital Monopoly board game, with some custom UI.</p>
+                <a href="projects/ugentopoly.html">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img3"></div>
+            <div class="content">
+                <h3>Unknown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+</html>
